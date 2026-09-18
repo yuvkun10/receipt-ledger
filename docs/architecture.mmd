@@ -1,0 +1,8 @@
+flowchart TD
+  A[Paper receipt, image, or PDF] --> B[OCR tool extracts text]
+  B --> C[Paste text into Receipt Ledger]
+  C --> D[Parser finds merchant, date, totals, tax, and line items]
+  D --> E[Review and correct fields]
+  E --> F[Save expense in browser local storage]
+  F --> G[View category and month totals]
+  F --> H[Export CSV ledger]

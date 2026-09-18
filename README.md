@@ -77,7 +77,7 @@ npm audit --audit-level=moderate
 npm outdated
 ```
 
-## Codebase Structure
+## Repository map
 
 ```text
 .
@@ -122,3 +122,7 @@ Key modules:
 - Dependabot is configured for npm packages and GitHub Actions.
 - `npm audit --audit-level=moderate` is the vulnerability gate.
 - `npm outdated` is the freshness gate for direct dependencies.
+
+## Documentation
+
+- [Architecture diagram source](docs/architecture.mmd)
